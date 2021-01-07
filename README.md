@@ -23,23 +23,26 @@ The goals / steps of this project are the following:
 - [Trained Keras model](./model.h5)
 - [Writeup](./writeup.md)
 - [Video recording of a vehicle autonomously traveling on a truck for at least one lap](./video.mp4)
-- [Virtual environment with Conda(option)](./tf230gpu.yml)
+- [Virtual environment with Conda(option)](./Behavioral-Cloning-2.yml)
 
 ## Requirement
 ---
 1. Environment for the Behavioral Cloning Project
-    - This project requires Python 3.8.5 and the following Python libraries installed:
+    - This project requires Python 3.5.2 and the following Python libraries installed:
 
-        - numpy 1.19.2
-        - tensorflow 2.3.0
+        - numpy 1.18.5
+        - tensorflow 1.3.0
         - socketio 5.0.4
-        - eventlet 0.30.0
+        - flask-socketio 3.0.1
+        - python-socketio 3.0.0
+        - python-engineio 3.0.0
+        - eventlet 0.23.0
         - flask 1.1.2
-        - moviepy 1.0.1
+        - moviepy 1.0.3
 
     - When using the conda environment, please build a virtual environment with the following command.
         ```
-        conda env create -f tf230gpu.yml
+        conda env create -f Behavioral-Cloning-2.yml
         ```
 1. Simulator
 The simulator can be downloaded from [the Udacity of repository](https://github.com/udacity/self-driving-car-sim). In the repository, Downloaded version 2 of Term 1 for Windows.
